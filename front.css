@@ -1,0 +1,113 @@
+.nanum-myeongjo-regular {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Nanum Myeongjo';
+}
+
+p {
+    font-size: 16px;
+}
+
+.border-bottom {
+    border-bottom: 2px solid;
+    padding-bottom: 0;
+    margin: 0;
+    
+}
+
+.border-left {
+    border-left: 2px solid;
+    padding-left: 0;
+    margin:0;
+}
+
+.border-top {
+    border-top: 2px solid;
+    padding-top: 0;
+    margin:0;
+}
+
+.border-right {
+    border-right: 2px solid;
+    padding-right: 0;
+    margin:0;
+}
+
+.padding{
+    padding: 5px;
+}
+
+.padding-left{
+    padding-left: 5px;
+}
+
+.padding-top{
+    padding-top: 5px;
+}
+
+.padding-right{
+    padding-right: 5px;
+}
+
+.padding-bottom{
+    padding-bottom: 5px;
+}
+
+.maingrid {
+    display: grid;
+    grid-template-columns: 1fr 110px;
+
+}
+
+.pstyle {
+    
+    font-size: 16px;
+    color:black;
+    font-weight: normal;
+    background-color: rgb(229, 229, 229);
+}
+
+
+
+.nightvision {
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    margin: 10px;
+
+}
+
+
+
+.nightalert {
+        color:yellow; display:none;
+    }
+
+.tableh>tr {
+    border: 2px solid
+}
+
+.tableb>tr>th,td {
+    border: 2px solid
+}
+
+.background_img {
+    
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-w-Kr55eaAKrcmDs7DR5lbDFkMDNBlAb7oGNnypS39g&s');
+    background-size: cover;
+    position: relative;
+    isolation: isolate;
+}
+
+.background_img::after {
+    position: absolute;
+    background-color: rgb(132, 125, 179);
+    content: '';
+    z-index: -1;
+    inset:0;
+    opacity: 0.6;    
+}

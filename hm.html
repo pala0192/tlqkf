@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="my-day-reportweb.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="front.css">
+    <script src="https://kit.fontawesome.com/af50eec6b1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    
+    <style>
+        img {
+            width:10em;
+            height: 10em;
+        }
+        
+        h1 {
+            font-size:300%
+        }
+        th, td,ul, ol, li{
+            font-size:140%
+        }
+        p {
+            font-size: 200%;
+            
+        }
+        
+    </style>
+    <script>
+        function search() {
+            var query = document.getElementById("searchInput").value;
+            if (query === "example") {
+                window.location.href = "example.html";
+            } else {
+                alert("검색어를 찾을 수 없습니다.");
+            }
+        }
+        
+    </script>
+</head>
+<body>
+    
+    <h1 style="display:inline">
+        fsdafas
+    </h1>
+    <h1>fasdfasdda</h1>
+    
+    <div>
+        <input type="text" id="searchInput" placeholder="검색어를 입력하세요">
+        <button onclick="search()">검색</button>
+    </div>
+
+    
+    </div>
+    <div>
+        <h1 style="text-align: center;">
+            =
+            <span style="color:rgb(87, 122, 205)">Hanmin</span>
+            <span style="color:rgb(139, 83, 236)">wiki</span>
+        </h1>
+    </div>
+    <!-- 좀 구린 메인 설명? 같은 느낌 -->
+    <div class="background_img" style="border: 5px solid; padding:5px; padding-bottom:100px">
+        <div>
+            <table style="background-color:white;color:black">
+                <tbody class="tableb">
+                    <tr>
+                        <th>이름</th>
+                        <td>한민 위키</td>
+                    </tr>
+                    <tr>
+                        <th>제작</th>
+                        <td>박현민, 신현빈, 이서준</td>
+                    </tr>
+                    <tr>
+                        <th>유형</th>
+                        <td>위키</td>
+                    </tr>
+                    <tr>
+                        <th>공개범위</th>
+                        <td>모든 한민고 재학생</td>
+                    </tr>
+                    <tr>
+                        <th>Ver</th>
+                        <td>1.0.0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+    <hr>
+    <div>
+        <ol>
+            <li><a href="#introduce"style="color:blue">소개</a></li>
+            <li><a href="#function"style="color:blue">기능</a></li>
+            <li><a href="#purpose"style="color:blue">목적</a></li>
+            <li><a href="#made"style="color:blue">제작</a></li>
+            <li><a href="#behind"style="color:blue">비하인드</a></li>
+            <li><a href="#source"style="color:blue">출처</a></li>
+        </ol>
+    </div>
